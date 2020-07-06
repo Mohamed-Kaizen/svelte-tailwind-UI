@@ -1,0 +1,11 @@
+tabWidth = 4
+useTabs = true
+printWidth = 81
+semi = false
+singleQuote = false
+bracketSpacing = false
+svelteStrictMode = true
+arrowParens = "always"
+trailingComma = "es5"
+svelteSortOrder = "scripts-markup-styles"
+plugins = ["prettier-plugin-svelte"]

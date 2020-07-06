@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>svelte tailwind UI</title>
+
+		<meta name="generator" content="svelte tailwind UI app" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<meta
+			name="description"
+			content="Random UI components using svelte and tailwind css."
+		/>
+
+		%sapper.base%
+		<link rel="icon" type="image/png" href="logo.png" />
+
+		<!--		 See https://goo.gl/OOhYW5-->
+		<link rel="manifest" href="manifest.json" />
+
+		<!-- See https://goo.gl/qRE0vM -->
+		<meta name="theme-color" content="#9021f3" />
+
+		<!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+		<meta name="mobile-web-app-capable" content="yes" />
+
+		<meta name="application-name" content="svelte tailwind UI" />
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="svelte tailwind UI" />
+
+		<!-- Homescreen icons -->
+		<link rel="apple-touch-icon" href="manifest/icon_48.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="manifest/icon_72.png" />
+		<link rel="apple-touch-icon" sizes="96x96" href="manifest/icon_96.png" />
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="manifest/icon_144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="192x192"
+			href="manifest/icon_192.png"
+		/>
+
+		<!-- Tile icon for Windows 8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="manifest/icon_144.png" />
+		<meta name="msapplication-TileColor" content="#9021f3" />
+		<meta name="msapplication-tap-highlight" content="no" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@svelte-tailwind-UI" />
+		<meta name="twitter:creator" content="@svelte-tailwind-UI" />
+		<meta name="twitter:image" content="logo.png" />
+
+		<meta name="og:title" content="svelte tailwind UI" />
+		<meta property="og:type" content="website" />
+		<meta name="og:site_name" content="svelte tailwind UI" />
+		<meta property="og:image" content="manifest/icon_144.png" />
+
+		<meta
+			name="og:description"
+			content="Random UI components using svelte and tailwind css."
+		/>
+
+		<link rel="stylesheet" href="index.css" />
+
+		<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+		%sapper.styles%
+
+		<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+		%sapper.head%
+	</head>
+
+	<body class="dark:bg-black transition duration-500 ease-in-out">
+		<noscript>
+			<strong
+				>Please enable JavaScript to view svelte tailwind UI app.</strong
+			>
+		</noscript>
+
+		<!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+		<div id="sapper">%sapper.html%</div>
+
+		<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+		%sapper.scripts%
+	</body>
+</html>
