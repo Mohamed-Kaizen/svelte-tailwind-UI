@@ -17,7 +17,7 @@
 			<a href="/">Pycon 2021</a>
 		</div>
 
-		<div class="text-gray-600 flex">
+		<div class="text-gray-600 flex flex-col lg:flex-row">
 			<span class="mr-2">31 python coder going</span>
 			<span class="text-red-400 mr-2">&middot;</span>
 			<span class="text-red-400">{indexo * 2} spots left</span>
