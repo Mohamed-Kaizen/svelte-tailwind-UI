@@ -4,6 +4,8 @@
 
 {#if segment === 'meetup'}
 	<slot />
+{:else if segment === 'inbox'}
+	<slot />
 {:else}
 	<slot />
 {/if}
