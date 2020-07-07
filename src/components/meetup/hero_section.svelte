@@ -7,19 +7,20 @@
 	</div>
 </div>
 
-<div class="container mx-auto px-40">
+<div class="container mx-auto px-8 xl:px-40">
 
 	<div
-		class="bg-gray-900 text-white flex items-center justify-between p-3 -my-8">
+		class="bg-gray-900 text-white flex flex-col lg:flex-row items-center
+		justify-between p-3 -my-8">
 
-		<div class="flex items-center">
+		<div class="flex flex-col lg:flex-row items-center">
 
 			<span class="relative">
 
 				<input
 					placeholder="search"
 					type="text"
-					class="text-gray-600 rounded px-2 py-3 w-64" />
+					class="text-gray-600 rounded px-2 py-3 w-56 lg:w-64" />
 
 				<span class="absolute right-0 top-0 mr-3 mt-3">
 					<svg
@@ -41,7 +42,7 @@
 				</span>
 
 			</span>
-			<span class="ml-4">
+			<span class="ml-4 mt-4 lg:mt-0">
 				within
 				<a
 					href="/"
@@ -56,7 +57,7 @@
 				</a>
 			</span>
 		</div>
-		<div class="flex items-center">
+		<div class="flex items-center mt-4 lg:mt-0">
 			<button class="border-l border-b border-t border-gray-700 px-6 py-2">
 				Groups
 			</button>
