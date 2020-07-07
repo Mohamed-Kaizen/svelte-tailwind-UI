@@ -23,11 +23,13 @@
 		<div class="w-full lg:w-8/12">
 			<!-- Event List section -->
 			{#each {length: 2} as _, index}
-				<div class="pl-3 uppercase font-bold text-sm py-2 pb-4">
+				<div
+					class="pl-3 uppercase font-bold text-sm py-2 pb-4
+					dark:text-gray-400">
 					July {index + 2}
 				</div>
 
-				<div class="border border-gray-400 bg-white mb-8">
+				<div class="mb-8">
 					{#each {length: 3} as _, indexo}
 						<CardEvent {indexo} />
 					{/each}
