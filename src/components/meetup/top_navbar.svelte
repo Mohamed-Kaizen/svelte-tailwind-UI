@@ -47,7 +47,8 @@
 		</li>
 
 		<li
-			class="cursor-pointer transition duration-300 ease-in-out mr-6"
+			class="cursor-pointer transition duration-300 ease-in-out mr-6
+			hover:text-red-600"
 			on:click="{mode_swticher}">
 
 			{#if !light_mode}
