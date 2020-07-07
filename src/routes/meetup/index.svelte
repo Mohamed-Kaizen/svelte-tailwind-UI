@@ -36,12 +36,15 @@
 				</div>
 			{/each}
 
-			<div class="border-t border-b border-gray-400 py-8 mb-8">
-				<div class="text-center font-bold text-2xl mb-2">
+			<div
+				class="border-t border-b border-gray-400 dark:border-gray-600
+				py-8 mb-8">
+				<div
+					class="text-center font-bold text-2xl mb-2 dark:text-gray-400">
 					Host events in Japan
 				</div>
 
-				<div class="text-center mb-8">
+				<div class="text-center mb-8 dark:text-gray-600">
 					Can't find what you're looking for ? Create a Meetup group to
 					start hosting local events.
 				</div>
@@ -56,11 +59,13 @@
 			</div>
 
 			{#each {length: size} as _, index}
-				<div class="pl-3 uppercase font-bold text-sm py-2 pb-4">
+				<div
+					class="pl-3 uppercase font-bold text-sm py-2 pb-4
+					dark:text-gray-400">
 					July {index + 7}
 				</div>
 
-				<div class="border border-gray-400 bg-white mb-8">
+				<div class="mb-8">
 					{#each {length: size} as _, indexo}
 						<CardEvent {indexo} />
 					{/each}
