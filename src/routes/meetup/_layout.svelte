@@ -7,6 +7,9 @@
 </svelte:head>
 
 <div class="font-sans bg-gray-200 dark:bg-black">
+
 	<NavBar />
-	<slot />
+	<div class="pt-16">
+		<slot />
+	</div>
 </div>
