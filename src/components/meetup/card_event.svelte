@@ -3,8 +3,9 @@
 </script>
 
 <div
-	class="border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-900 ">
-	<div class="flex p-4">
+	class="border border-gray-200 dark:border-transparent bg-white
+	dark:bg-gray-900 ">
+	<div class="dark:border-b dark:border-gray-800 flex p-4">
 
 		<div class="w-16 mr-4 text-gray-600 dark:text-gray-400">
 			<a href="/">{indexo + 6}:00PM</a>
