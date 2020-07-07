@@ -1,6 +1,8 @@
 <div class="bg-blue-900 text-center py-8 pb-20">
-	<div class="text-white text-4xl font-bold">Find your next event</div>
-	<div class="text-gray-400">
+	<div class="text-white dark:text-gray-200 text-4xl font-bold">
+		Find your next event
+	</div>
+	<div class="text-gray-400 dark:text-gray-300">
 		<span class="mr-2">41 events in your groups</span>
 		<span class="mr-2">&middot;</span>
 		<span>3,981 events near you</span>
@@ -10,8 +12,8 @@
 <div class="container mx-auto px-8 xl:px-40">
 
 	<div
-		class="bg-gray-900 text-white flex flex-col lg:flex-row items-center
-		justify-between p-3 -my-8">
+		class="bg-black dark:bg-gray-900 text-white flex flex-col lg:flex-row
+		items-center justify-between p-3 -my-8">
 
 		<div class="flex flex-col lg:flex-row items-center">
 
@@ -20,7 +22,8 @@
 				<input
 					placeholder="search"
 					type="text"
-					class="text-gray-600 rounded px-2 py-3 w-56 lg:w-64" />
+					class="text-gray-600 dark:bg-gray-600 dark:text-white rounded
+					px-2 py-3 w-56 lg:w-64" />
 
 				<span class="absolute right-0 top-0 mr-3 mt-3">
 					<svg
