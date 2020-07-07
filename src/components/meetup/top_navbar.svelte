@@ -21,7 +21,7 @@
 		<a href="meetup/">
 			<img
 				class="h-full w-full mx-auto select-none"
-				src="/favicon.png"
+				src="/1.png"
 				alt="logo" />
 		</a>
 
@@ -43,7 +43,7 @@
 		</li>
 
 		<li class="hidden lg:block mr-6">
-			<a class="hover:text-red-600" href="messages/">Messages</a>
+			<a class="hover:text-red-600" href="inbox/">Messages</a>
 		</li>
 
 		<li
@@ -113,8 +113,8 @@
 		<li>
 			<a href="profile/" class="flex items-center hover:text-red-600">
 				<img
-					class="rounded-full h-8 w-8"
-					src="/favicon.png"
+					class="rounded-full h-8 w-8 object-cover"
+					src="/2012_tomb_raider_game-1920x1080.jpg"
 					alt="avatar" />
 				<svg
 					class="w-4 h-4"
