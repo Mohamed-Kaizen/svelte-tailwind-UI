@@ -9,14 +9,12 @@
 		<NavBar />
 	</div>
 
-	<div class="flex-1 flex">
-
+	<div class="flex-1 flex overflow-hidden">
 		<SideNavBar />
 
-		<main class="bg-red-200">
-			<div></div>
-			<div></div>
+		<main class="flex-1 flex bg-gray-200">
 
+			<slot />
 		</main>
 
 	</div>
