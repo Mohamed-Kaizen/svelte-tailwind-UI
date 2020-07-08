@@ -2,7 +2,7 @@
 	import Card from "../../components/inbox/card.svelte"
 	let messages = [
 		[
-			"Death",
+			"New World",
 			"2 days ago",
 			"Madara",
 			"loredasda adasdasd sdasd.....",
