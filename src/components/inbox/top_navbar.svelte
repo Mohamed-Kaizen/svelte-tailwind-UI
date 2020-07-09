@@ -24,16 +24,16 @@
 	<div class="flex-1 flex items-center justify-between px-6 bg-gray-700">
 		<nav class="flex">
 			<a
-				href="/"
-				class="inline-block px-3 py-2 bg-gray-800 rounded-lg text-sm
-				font-medium text-white">
-				Mail Box
+				href="expenses-dashboard/"
+				class="inline-block px-3 py-2 rounded-lg text-sm font-medium
+				text-white">
+				Expenses
 			</a>
 			<a
-				href="/"
+				href="users-dashboard/"
 				class="ml-2 inline-block px-3 py-2 rounded-lg text-sm font-medium
 				text-white">
-				Report
+				Users
 			</a>
 			<a
 				href="meetup/"
