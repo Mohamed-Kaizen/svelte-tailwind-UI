@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="flex w-full items-center justify-between bg-white {index === 0 ? 'border-l-4 border-green-500' : ''}
+	class="flex w-full items-center justify-between bg-white dark:bg-gray-800 {index === 0 ? 'border-l-4 border-green-500 dark:border-green-300' : ''}
 	px-8 py-6">
 	<!-- card -->
 	<div class="flex">
@@ -16,31 +16,41 @@
 			<span class="text-lg font-bold">Amazon</span>
 			<div class="mt-4 flex">
 				<div class="flex">
-					<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+					<svg
+						class="h-5 w-5 fill-current dark:text-gray-300"
+						viewBox="0 0 24 24">
 						<path
 							d="M12 4a4 4 0 014 4 4 4 0 01-4 4 4 4 0 01-4-4 4 4 0
 							014-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4
 							8-4z"></path>
 					</svg>
-					<span class="ml-2 text-sm text-gray-600 capitalize">
+					<span
+						class="ml-2 text-sm text-gray-600 dark:text-gray-300
+						capitalize">
 						Niccolo perra
 					</span>
 				</div>
 
 				<div class="flex ml-6">
-					<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+					<svg
+						class="h-5 w-5 fill-current dark:text-gray-300"
+						viewBox="0 0 24 24">
 						<path
 							d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2
 							2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0
 							00-2-2h-1V1m-1 11h-5v5h5v-5z"></path>
 					</svg>
-					<span class="ml-2 text-sm text-gray-600 capitalize">
+					<span
+						class="ml-2 text-sm text-gray-600 dark:text-gray-300
+						capitalize">
 						13 aug 2016
 					</span>
 				</div>
 
 				<div class="flex ml-6">
-					<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
+					<svg
+						class="h-5 w-5 fill-current dark:text-gray-300"
+						viewBox="0 0 24 24">
 						<path
 							d="M13 2.05v2.02c3.95.49 7 3.85 7 7.93 0 3.21-1.92
 							6-4.72 7.28L13 17v5h5l-1.22-1.22C19.91 19.07 22 15.76
@@ -55,7 +65,9 @@
 							5.37l-1.43 1.42A10.04 10.04 0 0011 22v-2a8.063 8.063
 							0 01-3.89-1.63z"></path>
 					</svg>
-					<span class="ml-2 text-sm text-gray-600 capitalize">
+					<span
+						class="ml-2 text-sm text-gray-600 dark:text-gray-300
+						capitalize">
 						21 hours
 					</span>
 				</div>
@@ -65,7 +77,8 @@
 				<button
 					class="flex items-center focus:outline-none border
 					rounded-full py-2 px-6 leading-none border-gray-500
-					select-none hover:bg-blue-400 hover:text-white">
+					dark:border-gray-600 select-none hover:bg-blue-400
+					hover:text-white dark-hover:text-gray-200">
 					<svg class="h-5 w-5 fill-current mr-2" viewBox="0 0 24 24">
 						<path
 							d="M14 12v7.88c.04.3-.06.62-.29.83a.996.996 0 01-1.41
@@ -79,7 +92,8 @@
 				<button
 					class="flex items-center ml-4 focus:outline-none border
 					rounded-full py-2 px-6 leading-none border-blue-500
-					select-none hover:bg-blue-400 hover:text-white">
+					dark:border-blue-600 select-none hover:bg-blue-400
+					hover:text-white dark-hover:text-gray-200">
 					<svg
 						class="h-5 w-5 fill-current mr-2 text-blue-600"
 						viewBox="0 0 576 512">
@@ -105,9 +119,15 @@
 	</div>
 
 	<div class="flex flex-col -mt-10 mr-20">
-		<span class="font-semibold text-green-500">Refunded</span>
-		<span class="font-semibold text-green-500">200 $</span>
-		<span class="text-sm text-gray-700 mt-2">300,00kr</span>
+		<span class="font-semibold text-green-500 dark:text-green-300">
+			Refunded
+		</span>
+		<span class="font-semibold text-green-500 dark:text-green-300">
+			200 $
+		</span>
+		<span class="text-sm text-gray-700 dark:text-gray-400 mt-2">
+			300,00kr
+		</span>
 
 	</div>
 </div>

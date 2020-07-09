@@ -1,19 +1,47 @@
-<nav class="w-56 bg-white select-none overflow-y-auto">
+<script>
+	let light_mode = true
+	function mode_swticher() {
+		if (light_mode) {
+			document.documentElement.classList.add("mode-dark")
+			light_mode = false
+		} else {
+			document.documentElement.classList.remove("mode-dark")
+			light_mode = true
+		}
+	}
+</script>
+
+<nav
+	class="w-56 bg-white dark:bg-gray-800 select-none overflow-y-auto transition
+	duration-500 ease-in-out">
 
 	<div class="flex flex-col items-center ">
-		<h1 class="text-6xl font-light text-pink-600 mt-0">pleo</h1>
+		<h1
+			class="text-6xl font-light text-pink-600 dark:text-pink-400 mt-0
+			transition duration-500 ease-in-out">
+			pleo
+		</h1>
 
 		<img
 			class="h-16 w-16 rounded-full object-cover mt-4"
 			src="/mickey_mouse.jpg"
 			alt="mickey mouse Profile" />
-		<span class="capitalize mt-2 mb-6">mickey</span>
+		<span
+			class="capitalize mt-2 mb-6 dark:text-gray-400 transition
+			duration-500 ease-in-out">
+			mickey
+		</span>
 	</div>
 
 	<ul>
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 mb-2 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 576 512">
@@ -35,10 +63,13 @@
 		</li>
 
 		<li
-			class="pl-8 py-2 font-semibold text-pink-500 border-l-2
-			border-pink-500 hover:bg-pink-200 mb-2">
+			class="pl-8 py-2 font-semibold text-pink-500 dark:text-pink-400
+			border-l-2 border-pink-500 hover:bg-pink-200 mb-2 transition
+			duration-500 ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
@@ -51,9 +82,14 @@
 			</button>
 		</li>
 
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 mb-2 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
@@ -67,9 +103,14 @@
 			</button>
 		</li>
 
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 mb-2 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
@@ -89,9 +130,14 @@
 			</button>
 		</li>
 
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 mb-2 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
@@ -105,9 +151,14 @@
 			</button>
 		</li>
 
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 mb-2 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 448 512">
@@ -136,9 +187,14 @@
 			</button>
 		</li>
 
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 mb-2 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 24 24">
@@ -149,9 +205,14 @@
 			</button>
 		</li>
 
-		<li class="pl-8 py-2 font-semibold text-gray-700 hover:bg-pink-200 mb-2">
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			hover:bg-pink-200 dark-hover:bg-pink-500 transition duration-500
+			ease-in-out">
 
-			<button class="focus:text-pink-500 focus:outline-none w-full">
+			<button
+				class="focus:text-pink-500 dark-focus:text-pink-400
+				focus:outline-none w-full transition duration-500 ease-in-out">
 
 				<span class="flex items-center">
 					<svg class="h-4 w-4 fill-current" viewBox="0 0 496 512">
@@ -172,6 +233,70 @@
 					</svg>
 					<span class="ml-4 capitalize">my profile</span>
 				</span>
+			</button>
+		</li>
+
+		<li
+			class="pl-8 py-2 font-semibold text-gray-700 dark:text-gray-400
+			transition duration-500 ease-in-out">
+			<button
+				on:click="{mode_swticher}"
+				class="focus:text-pink-500 w-full hover:text-pink-500
+				focus:outline-none transition duration-500 ease-in-out">
+				{#if !light_mode}
+					<span class="flex items-center">
+						<svg
+							class="h-4 w-4 fill-current"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round">
+							<circle cx="12" cy="12" r="5"></circle>
+							<line x1="12" y1="1" x2="12" y2="3"></line>
+							<line x1="12" y1="21" x2="12" y2="23"></line>
+							<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+							<line
+								x1="18.36"
+								y1="18.36"
+								x2="19.78"
+								y2="19.78"></line>
+							<line x1="1" y1="12" x2="3" y2="12"></line>
+							<line x1="21" y1="12" x2="23" y2="12"></line>
+							<line
+								x1="4.22"
+								y1="19.78"
+								x2="5.64"
+								y2="18.36"></line>
+							<line
+								x1="18.36"
+								y1="5.64"
+								x2="19.78"
+								y2="4.22"></line>
+						</svg>
+						<span class="ml-4 capitalize">light mode</span>
+					</span>
+				{:else}
+					<span class="flex items-center">
+
+						<svg
+							class="h-4 w-4 fill-current"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round">
+							<path
+								d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21
+								12.79z"></path>
+						</svg>
+						<span class="ml-4 capitalize">dark mode</span>
+
+					</span>
+				{/if}
+
 			</button>
 		</li>
 

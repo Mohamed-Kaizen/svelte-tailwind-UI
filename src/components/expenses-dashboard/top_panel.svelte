@@ -28,7 +28,8 @@
 
 	<button
 		class="flex items-center focus:outline-none border rounded-full py-2 px-6
-		leading-none border-gray-500 select-none">
+		leading-none border-gray-500 select-none hover:text-pink-600
+		hover:bg-pink-300">
 		<svg class="h-5 w-5 fill-current mr-1" viewBox="0 0 24 24">
 			<path
 				d="M12 1L8 5h3v9h2V5h3m2 18H6a2 2 0 01-2-2V9a2 2 0
@@ -40,8 +41,9 @@
 	<div class="flex items-center select-none">
 		<span>Filter</span>
 		<button
-			class="ml-3 bg-gray-400 rounded-full p-2 focus:outline-none
-			hover:text-pink-500 hover:bg-pink-300">
+			class="ml-3 bg-gray-400 dark:bg-gray-600 dark:text-gray-400
+			rounded-full p-2 focus:outline-none hover:text-pink-500
+			hover:bg-pink-300 transition duration-500 ease-in-out">
 			<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
 				<path
 					d="M14 12v7.88c.04.3-.06.62-.29.83a.996.996 0 01-1.41
@@ -51,8 +53,9 @@
 			</svg>
 		</button>
 		<button
-			class="ml-2 bg-gray-400 rounded-full p-2 focus:outline-none
-			hover:text-pink-500 hover:bg-pink-300">
+			class="ml-2 bg-gray-400 dark:bg-gray-600 dark:text-gray-400
+			rounded-full p-2 focus:outline-none hover:text-pink-500
+			hover:bg-pink-300 transition duration-500 ease-in-out">
 			<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
 				<path
 					d="M18 21l-4-4h3V7h-3l4-4 4 4h-3v10h3M2 19v-2h10v2M2
@@ -60,8 +63,9 @@
 			</svg>
 		</button>
 		<button
-			class="ml-2 bg-gray-400 rounded-full p-2 focus:outline-none
-			hover:text-pink-500 hover:bg-pink-300">
+			class="ml-2 bg-gray-400 dark:bg-gray-600 dark:text-gray-400
+			rounded-full p-2 focus:outline-none hover:text-pink-500
+			hover:bg-pink-300 transition duration-500 ease-in-out">
 			<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
 				<path
 					d="M12 4a4 4 0 014 4 4 4 0 01-4 4 4 4 0 01-4-4 4 4 0 014-4m0
