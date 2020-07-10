@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Meet up| svelte tailwind UI</title>
+	<title>Meet up | svelte tailwind UI</title>
 </svelte:head>
 
 <div class="font-sans bg-gray-200 dark:bg-black">

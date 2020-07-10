@@ -3,6 +3,10 @@
 	import SideNavBar from "../../components/inbox/side_navbar.svelte"
 </script>
 
+<svelte:head>
+	<title>Inbox | svelte tailwind UI</title>
+</svelte:head>
+
 <div class="h-screen flex flex-col">
 
 	<div class="flex-shrink-0">
