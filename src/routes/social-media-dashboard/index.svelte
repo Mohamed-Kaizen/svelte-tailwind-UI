@@ -21,7 +21,7 @@
 	<LeftSideNavBar />
 
 	<main
-		class="flex-1 bg-gray-200 dark:bg-black container transition duration-500
+		class="flex-1 bg-gray-200 dark:bg-black transition duration-500
 		ease-in-out">
 
 		<div class="py-4 px-24">
