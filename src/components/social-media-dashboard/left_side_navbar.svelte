@@ -23,7 +23,7 @@
 		</li>
 
 		<li class="mt-5 p-3 hover:text-red-600 hover:bg-red-200 rounded-lg">
-			<a href="#home">
+			<a href="expenses-dashboard/">
 				<svg class="fill-current h-5 w-5" viewBox="0 0 512 512">
 					<path
 						d="M216 260c0 15.464-12.536 28-28
@@ -52,7 +52,7 @@
 		</li>
 
 		<li class="mt-5 p-3 hover:text-red-600 hover:bg-red-200 rounded-lg">
-			<a href="#home">
+			<a href="meetup/">
 				<svg class="fill-current h-5 w-5" viewBox="0 0 24 24">
 					<path
 						d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2
