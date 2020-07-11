@@ -1,10 +1,10 @@
 <div class="mt-6 flex justify-between capitalize">
 	<!-- Bottom cards -->
 
-	<div class="p-3 bg-white rounded-lg">
+	<div class="p-3 bg-white dark:bg-gray-800 dark:text-gray-400 rounded-lg">
 		<!-- info's -->
 
-		<h3 class="text-xl font-semibold">key metricks</h3>
+		<h3 class="text-xl font-semibold dark:text-gray-400">key metricks</h3>
 
 		<div class="mt-4">
 
@@ -66,7 +66,8 @@
 
 	<div
 		class="px-10 py-4 pb-2 mx-4 flex flex-col items-center justify-between
-		text-white bg-pink-900 rounded-lg capitalize text-center">
+		text-white dark:text-gray-300 bg-pink-900 rounded-lg capitalize
+		text-center">
 		<!-- Card -->
 
 		<div>
@@ -90,7 +91,8 @@
 
 	<div
 		class="px-10 py-4 pb-2 flex flex-col items-center justify-between
-		text-white bg-pink-900 rounded-lg capitalize text-center">
+		text-white dark:text-gray-300 bg-pink-900 rounded-lg capitalize
+		text-center">
 		<!-- Card -->
 
 		<div>

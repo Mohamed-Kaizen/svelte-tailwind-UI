@@ -1,4 +1,4 @@
-<nav class="w-24 flex flex-col items-center bg-white py-4">
+<nav class="w-24 flex flex-col items-center bg-white dark:bg-gray-800 py-4">
 
 	<div>
 		<!-- App Logo -->
@@ -9,9 +9,9 @@
 			alt="logo" />
 
 	</div>
-	<hr class="bg-red-400 mt-2 w-full" />
+	<div class="mt-2 border w-full dark:border-gray-700"></div>
 
-	<ul class="mt-2 text-gray-900">
+	<ul class="mt-2 text-gray-900 dark:text-gray-400">
 		<!-- Links -->
 
 		<li class="mt-5 p-3 text-red-600 bg-red-200 rounded-lg">
@@ -112,7 +112,7 @@
 
 	<div
 		class="mt-auto flex items-center p-3 hover:text-red-600 hover:bg-red-200
-		rounded-lg">
+		dark:text-gray-400 rounded-lg">
 		<!-- important action -->
 
 		<a href="/">

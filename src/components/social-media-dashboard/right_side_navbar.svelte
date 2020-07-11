@@ -1,11 +1,13 @@
-<aside class="w-1/4 px-12 py-4 flex flex-col bg-white">
+<aside
+	class="w-1/4 px-12 py-4 flex flex-col bg-white dark:bg-gray-800
+	dark:text-gray-400">
 
 	<div class="flex items-center justify-between">
 		<!-- Actions -->
 
 		<a href="inbox/">
 			<svg
-				class="h-5 w-5 hover:text-red-600"
+				class="h-5 w-5 hover:text-red-600 dark-hover:text-red-400"
 				viewBox="0 0 24 24"
 				fill="none"
 				stroke="currentColor"
@@ -36,7 +38,8 @@
 
 		<a href="users-dashboard/">
 			<svg
-				class="h-5 w-5 fill-current hover:text-red-600"
+				class="h-5 w-5 fill-current hover:text-red-600
+				dark-hover:text-red-400"
 				viewBox="0 0 448 512">
 				<path
 					d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1

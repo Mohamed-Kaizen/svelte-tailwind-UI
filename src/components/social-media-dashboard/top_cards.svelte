@@ -2,7 +2,7 @@
 
 	<div
 		class="px-4 pt-4 pb-2 flex justify-between border-4 border-white
-		rounded-lg">
+		dark:border-gray-300 dark:text-gray-400 rounded-lg">
 		<!-- Card -->
 
 		<div class="flex flex-col">
@@ -29,7 +29,9 @@
 					60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
 			</svg>
 			<span class="mt-4 text-4xl font-semibold">280k</span>
-			<span class="text-sm text-gray-600">followers</span>
+			<span class="text-sm text-gray-600 dark:text-gray-500">
+				followers
+			</span>
 			<span class="text-transparent">&sbquo</span>
 		</div>
 
@@ -44,7 +46,8 @@
 
 	<div
 		class="px-4 pt-4 pb-2 flex justify-between border-4 border-white
-		rounded-lg bg-white">
+		dark:border-gray-300 dark:bg-gray-300 dark:text-gray-700 rounded-lg
+		bg-white">
 		<!-- Card -->
 
 		<div class="flex flex-col">
@@ -73,7 +76,7 @@
 					29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
 			</svg>
 			<span class="mt-4 text-4xl font-semibold">680k</span>
-			<span class="text-sm text-gray-600">followers</span>
+			<span class="text-sm text-gray-600 dark:bg-gray-300">followers</span>
 			<span class="text-transparent">&sbquo</span>
 		</div>
 
@@ -92,7 +95,7 @@
 	</div>
 	<div
 		class="px-4 pt-4 pb-2 flex justify-between border-4 border-white
-		rounded-lg">
+		dark:border-gray-300 dark:text-gray-400 rounded-lg">
 		<!-- Card -->
 
 		<div class="flex flex-col">
@@ -109,7 +112,9 @@
 					7.83.44.9.25 1.48.83 1.73 1.73z"></path>
 			</svg>
 			<span class="mt-4 text-4xl font-semibold">2.3M</span>
-			<span class="text-sm text-gray-600">followers</span>
+			<span class="text-sm text-gray-600 dark:text-gray-500">
+				followers
+			</span>
 			<span class="text-transparent">&sbquo</span>
 		</div>
 
@@ -124,7 +129,7 @@
 
 	<div
 		class="px-4 py-4 pb-2 flex justify-between border-4 border-white
-		rounded-lg">
+		dark:border-gray-300 dark:text-gray-400 rounded-lg">
 		<!-- Card -->
 
 		<div class="flex flex-col">
@@ -138,7 +143,9 @@
 					008.44-9.9c0-5.53-4.5-10.02-10-10.02z"></path>
 			</svg>
 			<span class="mt-4 text-4xl font-semibold">280k</span>
-			<span class="text-sm text-gray-600">followers</span>
+			<span class="text-sm text-gray-600 dark:text-gray-500">
+				followers
+			</span>
 			<span class="text-transparent">&sbquo</span>
 		</div>
 
