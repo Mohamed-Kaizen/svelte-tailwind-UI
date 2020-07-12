@@ -4,13 +4,22 @@
 	<!-- Card list container -->
 
 	<h3
-		class="flex-shrink-0 pt-1 pb-1 px-8 text-lg font-semibold capitalize
+		class="flex items-center pt-1 pb-1 px-8 text-lg font-semibold capitalize
 		dark:text-gray-300">
 		<!-- Header -->
-		nearby jobs
+		<span>nearby jobs</span>
+		<button class="ml-2">
+			<svg class="h-5 w-5 fill-current" viewBox="0 0 256 512">
+				<path
+					d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9
+					0l-22.6-22.6c-9.4-9.4-9.4-24.6
+					0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3
+					103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+			</svg>
+		</button>
 	</h3>
 
-	<div class="flex-1 min-h-0">
+	<div>
 		<!-- List -->
 
 		<ul class="pt-1 pb-2 px-3 overflow-y-auto">
@@ -83,12 +92,14 @@
 				</li>
 			{/each}
 		</ul>
+
 		<a
 			href="/"
 			class="flex justify-center capitalize text-blue-500
 			dark:text-blue-200">
 			<span>see all</span>
 		</a>
+
 	</div>
 
 </div>
