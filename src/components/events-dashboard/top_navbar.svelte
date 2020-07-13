@@ -1,6 +1,5 @@
 <nav
-	class="h-24 w-full px-4 flex-shrink-0 flex justify-between fixed z-10
-	border-b bg-white">
+	class="h-24 w-full px-4 flex-shrink-0 flex justify-between border-b bg-white">
 
 	<ul class="flex items-center">
 		<!-- left side -->
