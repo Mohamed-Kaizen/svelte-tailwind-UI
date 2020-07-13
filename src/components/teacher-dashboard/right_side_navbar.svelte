@@ -7,7 +7,8 @@
 
 		<a href="inbox/" class="relative">
 			<!-- Left side -->
-			<span href="inbox/">
+
+			<span>
 				<svg
 					class="h-5 w-5 hover:text-red-600 dark-hover:text-red-400"
 					viewBox="0 0 24 24"
