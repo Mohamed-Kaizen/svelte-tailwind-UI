@@ -13,7 +13,7 @@
 		<li class="px-5 py-3 rounded-lg bg-gray-200 text-gray-700 ">
 
 			<a
-				href="#home"
+				href="blood-donate-dashboard/"
 				class="pr-4 -mr-5 flex items-center border-r-2 border-red-600">
 
 				<svg
@@ -36,7 +36,7 @@
 			hover:text-red-600">
 
 			<a
-				href="#home"
+				href="users-dashboard/"
 				class="pr-4 -mr-5 flex items-center hover:border-r-2
 				border-red-600">
 				<svg
@@ -62,7 +62,7 @@
 			hover:text-red-600">
 
 			<a
-				href="#home"
+				href="social-media-dashboard/"
 				class="pr-4 -mr-5 flex items-center hover:border-r-2
 				border-red-600">
 				<svg
@@ -97,7 +97,7 @@
 			hover:text-red-600">
 
 			<a
-				href="#home"
+				href="teacher-dashboard/"
 				class="pr-4 -mr-5 flex items-center hover:border-r-2
 				border-red-600">
 				<svg
@@ -142,7 +142,7 @@
 			hover:text-red-600">
 
 			<a
-				href="#home"
+				href="events-dashboard/"
 				class="pr-4 -mr-5 flex items-center hover:border-r-2
 				border-red-600">
 				<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
@@ -162,7 +162,7 @@
 			hover:text-red-600">
 
 			<a
-				href="#home"
+				href="expenses-dashboard/"
 				class="pr-4 -mr-5 flex items-center hover:border-r-2
 				border-red-600">
 				<svg
