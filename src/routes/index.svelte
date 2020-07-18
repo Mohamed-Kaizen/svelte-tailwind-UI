@@ -50,4 +50,10 @@
 
 	</div>
 
+	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
+		<a href="blood-donate-dashboard/">blood donate dashboard</a>
+		<a class="mt-3" href="blood_donate_dashboard.png/">base desgin</a>
+
+	</div>
+
 </div>
