@@ -1,6 +1,4 @@
-<nav
-	class=" h-20 w-full px-20 py-8 flex items-center justify-between border-b
-	bg-white">
+<nav class=" h-20 w-full px-20 py-8 flex items-center justify-between bg-white">
 
 	<ul class="flex items-center">
 		<!-- left side -->
