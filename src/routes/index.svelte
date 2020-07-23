@@ -1,3 +1,23 @@
+<script>
+	const projects = [
+		["Expenses Dashboard", "expense.png", "expenses-dashboard/"],
+		["User Dashboard", "user-dashboard.png", "users-dashboard/"],
+		[
+			"Social Media Dashboard",
+			"social_media_dashboard.png",
+			"social-media-dashboard/",
+		],
+		["Teacher Dashboard", "teacher_dashboard.png", "teacher-dashboard/"],
+		["Events Dashboard", "events_dashboard.png", "events-dashboard/"],
+		[
+			"Blood Donate Dashboard",
+			"blood_donate_dashboard.png",
+			"blood-donate-dashboard/",
+		],
+		["Jobs List", "job_list.png", "jobs-list/"],
+	]
+</script>
+
 <svelte:head>
 	<title>svelte tailwind UI</title>
 </svelte:head>
@@ -5,6 +25,7 @@
 <div
 	class="container mx-auto p-8 flex flex-row flex-wrap justify-between
 	capitalize">
+
 	<div class="m-8 shadow px-6 py-2 text-blue-500 bg-white">
 		<a href="/meetup/">Meetup</a>
 
@@ -20,40 +41,20 @@
 
 	</div>
 
-	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
-		<a href="/expenses-dashboard/">Expenses Dashboard</a>
-		<a class="mt-3" href="expense.png/">Base Desgin</a>
+	{#each projects as [name, image, link]}
+		<div
+			class="m-8 shadow px-6 py-2 flex items-center text-blue-500 bg-white">
 
-	</div>
+			<a href="{image}/" target="blank">
+				<img
+					class="h-10 w-10 mr-3 rounded-full"
+					src="{image}/"
+					alt="{name}" />
+			</a>
 
-	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
-		<a href="users-dashboard/">User Dashboard</a>
-		<a class="mt-3" href="user-dashboard.png/">Base Desgin</a>
+			<a href="{link}">{name}</a>
 
-	</div>
-
-	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
-		<a href="social-media-dashboard/">social media dashboard</a>
-		<a class="mt-3" href="social_media_dashboard.png/">base desgin</a>
-
-	</div>
-
-	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
-		<a href="teacher-dashboard/">teacher dashboard</a>
-		<a class="mt-3" href="teacher_dashboard.png/">base desgin</a>
-
-	</div>
-
-	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
-		<a href="events-dashboard/">events dashboard</a>
-		<a class="mt-3" href="events_dashboard.png">base desgin</a>
-
-	</div>
-
-	<div class="m-8 shadow px-6 py-2 flex flex-col text-blue-500 bg-white">
-		<a href="blood-donate-dashboard/">blood donate dashboard</a>
-		<a class="mt-3" href="blood_donate_dashboard.png/">base desgin</a>
-
-	</div>
+		</div>
+	{/each}
 
 </div>
