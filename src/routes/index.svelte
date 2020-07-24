@@ -1,4 +1,6 @@
 <script>
+	import TopNavBar from "../components/random/top_navbar.svelte"
+
 	const projects = [
 		["Meetup", "meetup.png", "meetup/"],
 		["Inbox", "inbox.png", "inbox/"],
@@ -24,6 +26,8 @@
 <svelte:head>
 	<title>svelte tailwind UI</title>
 </svelte:head>
+
+<TopNavBar />
 
 <div
 	class="container mx-auto p-8 flex flex-row flex-wrap justify-between
