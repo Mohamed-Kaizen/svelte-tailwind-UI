@@ -20,7 +20,7 @@
 		<a href="https://github.com/" target="blank">
 
 			<svg
-				class="h-8 w-8 fill-current"
+				class="h-8 w-8 fill-current hover:text-gray-500"
 				viewBox="0 0 16 16"
 				aria-hidden="true">
 				<path
