@@ -1,8 +1,8 @@
 <nav
-	class="w-full h-16 lg:h-12 p-4 flex items-center justify-between bg-gray-900
+	class="w-full h-16 md:h-12 p-4 flex items-center justify-between bg-gray-900
 	text-white">
 
-	<button class="lg:hidden hover:text-gray-500">
+	<button class="md:hidden hover:text-gray-500">
 		<!-- Left side -->
 
 		<svg class="h-6 w-6 fill-current" viewBox="0 0 16 16" aria-hidden="true">
@@ -39,7 +39,7 @@
 
 		</a>
 
-		<span class="hidden lg:block ml-4 relative text-sm">
+		<span class="hidden md:block ml-4 relative text-sm">
 
 			<input
 				class="w-full px-3 py-1 bg-gray-800 placeholder-gray-300
@@ -67,29 +67,33 @@
 		</span>
 
 		<a
-			class="hidden lg:block ml-4 hover:text-gray-500 capitalize"
+			class="hidden md:flex ml-4 hover:text-gray-500 capitalize"
 			href="https://github.com/pulls"
 			target="blank">
-			pull requests
+
+			<span class="hidden md:block lg:hidden">pulls</span>
+
+			<span class="hidden lg:block">pull requests</span>
+
 		</a>
 
 		<a
-			class="hidden lg:block ml-4 hover:text-gray-500 capitalize"
-			href="https://github.com/pulls"
+			class="hidden md:block ml-4 hover:text-gray-500 capitalize"
+			href="https://github.com/issues"
 			target="blank">
 			issues
 		</a>
 
 		<a
-			class="hidden lg:block ml-4 hover:text-gray-500 capitalize"
-			href="https://github.com/pulls"
+			class="hidden md:block ml-4 hover:text-gray-500 capitalize"
+			href="https://github.com/marketplace"
 			target="blank">
 			marketplace
 		</a>
 
 		<a
-			class="hidden lg:block ml-4 hover:text-gray-500 capitalize"
-			href="https://github.com/pulls"
+			class="hidden md:block ml-4 hover:text-gray-500 capitalize"
+			href="https://github.com/explore"
 			target="blank">
 			explore
 		</a>
@@ -135,7 +139,7 @@
 
 		</div>
 
-		<button class="hidden lg:flex mr-4 items-center hover:text-gray-500">
+		<button class="hidden md:flex mr-4 items-center hover:text-gray-500">
 
 			<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24">
 				<path d="M0 0h24v24H0V0z" fill="none"></path>
@@ -149,7 +153,7 @@
 
 		</button>
 
-		<button class="hidden lg:flex items-center hover:text-gray-500">
+		<button class="hidden md:flex items-center hover:text-gray-500">
 
 			<img
 				class="h-5 w-5 rounded-full"
